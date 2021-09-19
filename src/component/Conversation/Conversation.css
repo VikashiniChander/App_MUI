@@ -23,12 +23,7 @@
     right: 0px;
   }
 
-  .MuiListItem-root {
-    width: 90%;
-  }
-
   .message-block {
-    padding: 15px;
     background-color: white;
     border-radius: 10px;
     margin: 9px !important;
@@ -36,4 +31,20 @@
 
   .spacing {
     margin-top: 20px !important;
+  }
+
+  .message-block .MuiListItem-gutters {
+    padding: 0px 16px 0px 0px;
+  }
+
+  .message .MuiTypography-body1 {
+    font-size: 0.7rem;
+    text-align: left;
+  }
+  .message-block .MuiListItemText-root { 
+    margin: 0px;
+  }
+
+  .message-block2 {
+    border-radius: none;
   }
