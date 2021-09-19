@@ -1,4 +1,4 @@
-import './SidePanel.css';
+import './LeftSidePanel.css';
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -13,7 +13,7 @@ import { spacing } from '@material-ui/system';
 
 
 
-function SidePanel() {
+function LeftSidePanel() {
   
   return (
       
@@ -28,4 +28,4 @@ function SidePanel() {
  
 
 
-export default SidePanel;
+export default LeftSidePanel;

@@ -13,11 +13,14 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Avatar from '@material-ui/core/Avatar';
 import Fab from '@material-ui/core/Fab';
+import Box from '@material-ui/core/Box';
+
+
 
 class Conversation extends Component {
     render() {
         return (
-            <Grid item xs={3} className="borderRight500">
+            <Grid item xs={3} className="fullblock">
             {/* <List>
                 <ListItem button key="RemySharp">
                     <ListItemIcon>
@@ -26,10 +29,11 @@ class Conversation extends Component {
                     <ListItemText primary="John Wick"></ListItemText>
                 </ListItem>
             </List> */}
-            <Grid item xs={12} style={{padding: '10px'}}>
-                <TextField id="outlined-basic-email" label="Search" variant="outlined" fullWidth />
+            <Grid className="compose-block"><Box className="compose-button"></Box></Grid>
+            <Grid item xs={12}>
+                <TextField  fullWidth className="searchbox" />
             </Grid>
-             <List>
+             {/* <List>
                 <ListItem button key="RemySharp">
                     <ListItemIcon>
                         <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -49,7 +53,7 @@ class Conversation extends Component {
                     </ListItemIcon>
                     <ListItemText primary="Cindy Baker">Cindy Baker</ListItemText>
                 </ListItem>
-            </List> 
+            </List>  */}
         </Grid>
             
      

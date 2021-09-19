@@ -1,4 +1,4 @@
-import SidePanel from './component/SidePanel/SidePanel'
+import LeftSidePanel from './component/LeftSidePanel/LeftSidePanel'
 import Conversation from './component/Conversation/Conversation';
 import User from './component/User/User';
 
@@ -46,7 +46,7 @@ function App() {
             </Grid>
         </Grid>
         <Grid container component={Paper} className="chatSection">
-          <SidePanel />
+          <LeftSidePanel />
           <Conversation />
            <Chat />
            <User />
