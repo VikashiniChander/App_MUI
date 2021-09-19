@@ -22,3 +22,18 @@
     bottom: 0px;
     right: 0px;
   }
+
+  .MuiListItem-root {
+    width: 90%;
+  }
+
+  .message-block {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 9px !important;
+  }
+
+  .spacing {
+    margin-top: 20px !important;
+  }
