@@ -14,7 +14,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Avatar from '@material-ui/core/Avatar';
 import Fab from '@material-ui/core/Fab';
 import Box from '@material-ui/core/Box';
-
+// import CircleIcon from '@mui/icons-material/Circle';
 
 const message = `Hi user! Need your help in setting up all things for all the new`
 
@@ -29,11 +29,10 @@ class Conversation extends Component {
                 </Grid>
                 <List className="message-block spacing">
                     <Grid container>
-                        <Grid> </Grid>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
-                        <Grid item xs={6} md={9} >
+                        <Grid  xs={6} md={9} className="conversation">
                             <ListItem button key="RemySharp">
                                 <ListItemText primary="John Wick"></ListItemText>
                                 <ListItemText align="right" secondary="09:30"></ListItemText>

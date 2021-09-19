@@ -42,7 +42,7 @@ function User() {
         </Grid>
 
       <Paper sx={{ maxWidth: 600, my: 1, mx: 'auto', p: 2 , mt: 2,  width: 230, height: 200, }}
-       className={classes.paper}   elevation={3}>
+       className={classes.paper} >
         <Grid  wrap="nowrap" spacing={2}>
           <Grid>
             <Typography mt={2}>{message}</Typography>
@@ -53,7 +53,6 @@ function User() {
       <Paper sx={{ maxWidth: 600, my: 1, mx: 'auto', p: 2 , pt: 2,  width: 230, height: 200, }} >
         <Grid  wrap="nowrap" spacing={2} >
         <Grid>
-        {/* <HomeIcon fontSize="small" /> */}
           </Grid>
           <Grid>
             <Typography mt={2}>{message}</Typography>
