@@ -8,10 +8,16 @@
 
 .chat-grid {
     padding: 20px;
+    position: relative;
 }
 
 .chat-grid {
     .MuiListItem-gutter {
         padding: 0px !important;
     }
+}
+
+.message {
+    bottom: 0px;
+    position: absolute
 }

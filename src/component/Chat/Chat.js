@@ -22,47 +22,6 @@ class Chat extends Component {
     render() {
         return (
             <Grid item xs={6} className="chat-grid">
-                {/* <List className="messageArea">
-                <ListItem key="1">
-                    
-                    <Grid container>
-                        <Grid item xs={12}> 
-                        <ListItemIcon float="right">
-                        <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
-                        <ListItemText align="right" secondary="09:30"></ListItemText>
-                        </ListItemIcon>
-
-                        <ListItemText align="right" primary="John Wick"></ListItemText>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <ListItemText align="right" primary="Hey man, What's up ?"></ListItemText>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <ListItemText align="right" secondary="09:30"></ListItemText>
-                        </Grid>
-                    </Grid>
-                </ListItem>
-                <ListItem key="2">
-                    <Grid container>
-                        <Grid item xs={12}>
-                            <ListItemText align="left" primary="Hey, Iam Good! What about you ?"></ListItemText>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <ListItemText align="left" secondary="09:31"></ListItemText>
-                        </Grid>
-                    </Grid>
-                </ListItem>
-                <ListItem key="3">
-                    <Grid container>
-                        <Grid item xs={12}>
-                            <ListItemText align="right" primary="Cool. i am good, let's catch up!"></ListItemText>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <ListItemText align="right" secondary="10:30"></ListItemText>
-                        </Grid>
-                    </Grid>
-                </ListItem>
-            </List> */}
                 <List >
                     <Grid xs={8}>
                         <Grid item xs={7}>
@@ -73,14 +32,12 @@ class Chat extends Component {
                             </ListItem>
                         </Grid>
                         <Grid xs={6} className="chat-block">
-                            <ListItemText className="message" primary="Cool. i am good, let's catch up!"></ListItemText>
+                            <ListItemText primary="Cool. i am good, let's catch up!"></ListItemText>
                         </Grid>
                     </Grid>
                 </List>
                 <List >
-                    <Grid xs={8} alignItems="flex-end"
-                        justify="flex-end"
-                    >
+                    <Grid xs={8} >
                         <Grid item xs={7} >
                             <ListItem button key="RemySharp">
                                 <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -89,14 +46,12 @@ class Chat extends Component {
                             </ListItem>
                         </Grid>
                         <Grid xs={6} md={6} className="chat-block">
-                            <ListItemText className="message" primary="Cool. i am good, let's catch up!"></ListItemText>
+                            <ListItemText  primary="Cool. i am good, let's catch up!"></ListItemText>
                         </Grid>
                     </Grid>
                 </List>
                 <List >
-                    <Grid xs={8} alignItems="flex-end"
-                        justify="flex-end"
-                    >
+                    <Grid xs={8} >
                         <Grid item xs={7} >
                             <ListItem button key="RemySharp">
                                 <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -105,11 +60,11 @@ class Chat extends Component {
                             </ListItem>
                         </Grid>
                         <Grid xs={6} md={6} className="chat-block">
-                            <ListItemText className="message" primary="Cool. i am good, let's catch up!"></ListItemText>
+                            <ListItemText primary="Cool. i am good, let's catch up!"></ListItemText>
                         </Grid>
                     </Grid>
                 </List>
-                <Grid container style={{ padding: '20px' }}>
+                <Grid container className="message">
                     <Grid item xs={8}>
                         <TextField id="outlined-basic-email" label="Type a message..." fullWidth />
                         
@@ -122,7 +77,6 @@ class Chat extends Component {
                         <LocalPrintshopOutlinedIcon></LocalPrintshopOutlinedIcon>
                     </Grid>
                     <Grid xs={1} align="right">
-                    {/* <UploadFileOutlinedIcon></UploadFileOutlinedIcon> */}
                     </Grid>
                 </Grid>
             </Grid>
