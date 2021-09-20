@@ -11,26 +11,32 @@ import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
+import AcUnitOutlinedIcon from '@material-ui/icons/AcUnitOutlined';
 
 function App() {
   return (
-   
-        <div className="App">
-            <Grid item xs={12} class="inbox">``
-                <Typography variant="h5" className="header-message">Inbox</Typography>
-            </Grid>
-        <Grid container component={Paper} className="chatSection">
-          <LeftSidePanel />
-          <Conversation />
-           <Chat />
-           <User />
-           
-        </Grid>
-      </div>
-  );
-  }
 
- 
+    <div className="App">
+      <Grid item className="inbox" container>
+        <Grid  xs={1} md={6}>
+        <AcUnitOutlinedIcon></AcUnitOutlinedIcon>
+        </Grid>
+        <Grid  xs={2} md={6}>
+        <Typography variant="h5" className="header-message">Inbox</Typography>
+        </Grid>
+      </Grid>
+      <Grid container component={Paper} className="chatSection">
+        <LeftSidePanel />
+        <Conversation />
+        <Chat />
+        <User />
+
+      </Grid>
+    </div>
+  );
+}
+
+
 
 
 export default App;

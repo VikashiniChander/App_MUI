@@ -1,4 +1,4 @@
-import './Conversation.css';
+import './Conversation.scss';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
@@ -21,18 +21,18 @@ const message = `Hi user! Need your help in setting up all things for all the ne
 class Conversation extends Component {
     render() {
         return (
-            <Grid item xs={3} className="fullblock">
+            <Grid item xs={3} className="blue-bg">
 
                 <Grid className="compose-block"><Box className="compose-button"></Box></Grid>
                 <Grid item xs={12}>
-                    <TextField fullWidth className="searchbox" />
+                    <TextField fullWidth className="white-bg" />
                 </Grid>
-                <List className="message-block spacing">
+                <List className="message-block spacing white-bg">
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
-                        <Grid  xs={6} md={9} className="conversation">
+                        <Grid  xs={6} md={9}>
                             <ListItem button key="RemySharp">
                                 <ListItemText primary="John Wick"></ListItemText>
                                 <ListItemText align="right" secondary="09:30"></ListItemText>
@@ -41,7 +41,7 @@ class Conversation extends Component {
                         </Grid>
                     </Grid>
                 </List>
-                <List className="message-block2">
+                <List className="message-block blue-bg">
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -55,7 +55,35 @@ class Conversation extends Component {
                         </Grid>
                     </Grid>
                 </List>
-                <List className="message-block spacing">
+                <List className="message-block white-bg">
+                    <Grid container>
+                        <Grid item xs={2} md={3} ><ListItemIcon>
+                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        </ListItemIcon></Grid>
+                        <Grid item xs={6} md={9} >
+                            <ListItem button key="RemySharp">
+                                <ListItemText primary="John Wick"></ListItemText>
+                                <ListItemText align="right" secondary="09:30"></ListItemText>
+                            </ListItem>
+                            <ListItemText className ="message">{message}</ListItemText>
+                        </Grid>
+                    </Grid>
+                </List>
+                <List className="message-block spacing blue-bg">
+                    <Grid container>
+                        <Grid item xs={2} md={3} ><ListItemIcon>
+                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        </ListItemIcon></Grid>
+                        <Grid  xs={6} md={9}>
+                            <ListItem button key="RemySharp">
+                                <ListItemText primary="John Wick"></ListItemText>
+                                <ListItemText align="right" secondary="09:30"></ListItemText>
+                            </ListItem>
+                            <ListItemText className ="message">{message}</ListItemText>
+                        </Grid>
+                    </Grid>
+                </List>
+                <List className="message-block white-bg">
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />

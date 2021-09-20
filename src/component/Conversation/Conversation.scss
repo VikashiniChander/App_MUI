@@ -1,9 +1,8 @@
-  .fullblock {
+  .blue-bg {
       background-color: aliceblue;
   }
   
-
-  .searchbox {
+  .white-bg {
     background-color: white;
   }
   
@@ -24,7 +23,6 @@
   }
 
   .message-block {
-    background-color: white;
     border-radius: 10px;
     margin: 9px !important;
     padding-left: 10px !important;
@@ -34,18 +32,26 @@
     margin-top: 20px !important;
   }
 
-  .message-block .MuiListItem-gutters {
-    padding: 0px 16px 0px 0px;
+  .message-block {
+    .MuiListItem-gutters {
+      padding: 0px 16px 0px 0px;
+    }
+    .MuiListItemText-root {
+      margin: 0px;
+    }
   }
-
-  .message .MuiTypography-body1 {
-    font-size: 0.7rem;
-    text-align: left;
+  .message {
+    .MuiTypography-body1 {
+      font-size: 0.7rem;
+      text-align: left;
+    }
   }
-  .message-block .MuiListItemText-root { 
-    margin: 0px;
-  }
-
   .message-block2 {
-    border-radius: none;
+    .MuiListItemText-root {
+      border-radius: none;
+    }
+    .MuiListItem-gutters {
+      padding: 0px 16px 0px 0px;
+    }
   }
+  
