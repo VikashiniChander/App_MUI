@@ -16,6 +16,7 @@ import Fab from '@material-ui/core/Fab';
 import SendIcon from '@material-ui/icons/Send';
 import AddSharpIcon from '@material-ui/icons/AddSharp';
 import LocalPrintshopOutlinedIcon from '@material-ui/icons/LocalPrintshopOutlined';
+
 // import UploadFileIcon from '@material-ui/icons/UploadFile';
 
 class Chat extends Component {
@@ -52,8 +53,8 @@ class Chat extends Component {
                 </List>
                 <List >
                     <Grid xs={8} >
-                        <Grid item xs={7} >
-                            <ListItem button key="RemySharp">
+                        <Grid item xs={7} className="chat-msg" >
+                            <ListItem button key="RemySharp" >
                                 <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                                 <ListItemText primary="John Wick"></ListItemText>
                                 <ListItemText align="right" secondary="09:30"></ListItemText>
@@ -64,19 +65,19 @@ class Chat extends Component {
                         </Grid>
                     </Grid>
                 </List>
-                <Grid container className="message">
+                <Grid container className="message-box ">
                     <Grid item xs={8}>
                         <TextField id="outlined-basic-email" label="Type a message..." fullWidth />
                         
                     </Grid>
-                    <Grid xs={1} align="right">
+                    <Grid xs={1} className="icon">
                         <Grid> <AddSharpIcon></AddSharpIcon></Grid>
                         {/* <Fab color="primary" aria-label="add"><SendIcon /></Fab> */}
                     </Grid>
-                    <Grid xs={1} align="right">
+                    <Grid xs={1} className="icon">
                         <LocalPrintshopOutlinedIcon></LocalPrintshopOutlinedIcon>
                     </Grid>
-                    <Grid xs={1} align="right">
+                    <Grid xs={1} className="icon">
                     </Grid>
                 </Grid>
             </Grid>

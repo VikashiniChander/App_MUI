@@ -54,4 +54,17 @@
       padding: 0px 16px 0px 0px;
     }
   }
+
+  .search-box {
+    .MuiPaper-elevation1 {
+      box-shadow: none;
+      height: 32px;
+    }
+  }
+
+  .search-icon {
+    .MuiIconButton-root {
+      padding: 0px 12px 0px 12px
+    }
+  }
   
