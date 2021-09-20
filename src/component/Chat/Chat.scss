@@ -1,7 +1,17 @@
 .chat-block {
     padding: 10px;
     background-color: rgb(146, 219, 168);
-    width: 500px;
+    width: 250px;
     border-radius: 8px;
-    height: 50px;
+    min-height: 30px;
+}
+
+.chat-grid {
+    padding: 20px;
+}
+
+.chat-grid {
+    .MuiListItem-gutter {
+        padding: 0px !important;
+    }
 }
