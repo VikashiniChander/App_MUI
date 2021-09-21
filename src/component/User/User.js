@@ -10,63 +10,101 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import { spacing } from '@material-ui/system';
+import FilterListOutlinedIcon from '@material-ui/icons/FilterListOutlined';
+import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 
 const message = `Truncation should be conditionally applicable on this long line of text
  as this is a much longer line than what the container can support. `;
 
- const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-    },
-    paper: {
-      padding: theme.spacing(1), //grid padding
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-     marginBottom: 20,
-    },
-  }));
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(1), //grid padding
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    marginBottom: 20,
+  },
+}));
 
 function User() {
-    //create class based upon class outside of export default. 
-    const classes = useStyles();
+  //create class based upon class outside of export default. 
+  const classes = useStyles();
 
   return (
-      
-    <Grid  item xs={1}>
- 
-    <Box  spacing={2}  className="user-block">
-        <Grid item sx={{ml:3}}>
 
-        <Avatar>W</Avatar>
+    <Grid item xs={1}>
+
+      <Box spacing={2} className="user-block">
+        <Grid item sx={{ ml: 3 }}>
+
+          <Avatar>W</Avatar>
         </Grid>
 
-      <Paper className="rectangle">
-        <Grid  wrap="nowrap" spacing={2}>
-          <Grid>
-            <Typography mt={2}>{message}</Typography>
+        <Paper className="rectangle">
+          <Grid wrap="nowrap" container>
+            <Grid>
+              <FilterListOutlinedIcon></FilterListOutlinedIcon>
+            </Grid>
+            <Grid>
+              <Box className="rectangle-text">linda@jackson.com</Box>
+            </Grid>
           </Grid>
-        </Grid>
-      </Paper>
+          <Grid wrap="nowrap" container>
+            <Grid>
+              <LocalPhoneIcon></LocalPhoneIcon>
+            </Grid>
+            <Grid>
+              <Box className="rectangle-text">+1-415-404-0924</Box>
+            </Grid>
+          </Grid>
 
-      <Paper sx={{ maxWidth: 600, my: 1, mx: 'auto', p: 2 , pt: 2,  width: 230, height: 200, }} >
-        <Grid  wrap="nowrap" spacing={2} >
-        <Grid>
+
+        </Paper>
+
+        <Paper className="rectangle">
+          <Grid wrap="nowrap" spacing={0} container>
+            <Grid xs={1}>
+              <img src="App_MUI\src\assets\address1.png" />
+            </Grid>
+            <Grid className="message-spacing" >
+
+              <Box className="rectangle-text">123 Main St</Box>
+              <Box className="rectangle-text">Contact Owner</Box>
+              <Box className="rectangle-text">Adam Horsman</Box>
+              <Box className="rectangle-text">Favourite Color</Box>
+              <Box className="rectangle-text">Green</Box>
+
+            </Grid>
           </Grid>
-          <Grid>
-            <Typography mt={2}>{message}</Typography>
+        </Paper>
+        <Paper className="rectangle">
+          <Grid wrap="nowrap" spacing={0} container>
+            <Grid xs={1}>
+              <img src="App_MUI\src\assets\address1.png" />
+            </Grid>
+            <Grid className="message-spacing" >
+
+              <Box className="rectangle-text">123 Main St</Box>
+              <Box className="rectangle-text">Contact Owner</Box>
+              <Box className="rectangle-text">Adam Horsman</Box>
+              <Box className="rectangle-text">Favourite Color</Box>
+              <Box className="rectangle-text">Green</Box>
+
+            </Grid>
           </Grid>
-        </Grid>
-      </Paper>
-      
-          
-     
-    </Box>
-     </Grid>
+        </Paper>
+
+
+
+      </Box>
+    </Grid>
   );
-  }
+}
 
 
- 
+
 
 
 export default User;

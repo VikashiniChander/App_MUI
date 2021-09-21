@@ -2,33 +2,40 @@
     padding: 8;
     border: "1px solid black";
     margin: 20;
+
 }
 
 .user-block {
     height: 100%;
-    width: 234px;
+    width: 215px;
 left: 1249px;
 top: 77px;
 border-radius: 0px;
 background-color: #EAF0FF;
+padding: 10px
 
 }
 
 .rectangle {
-    height: 171px;
+    height: 125px;
     // width: 293px;
     left: 1260px;
     top: 357px;
     border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
 
 }
 
-.rectangle-text {
-    height: 21px;
-width: 102px;
-left: 1312px;
-top: 412px;
-border-radius: nullpx;
+.rectangle-text{
+    font-family: Work Sans;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+
 
 }
 
@@ -39,5 +46,9 @@ left: 1312px;
 top: 368px;
 border-radius: nullpx;
 
+}
+
+.message-spacing {
+    margin-left: 15px;
 }
 

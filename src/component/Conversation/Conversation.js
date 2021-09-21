@@ -102,20 +102,7 @@ class Conversation extends Component {
                         </Grid>
                     </Grid>
                 </List>
-                <List className="message-block white-bg">
-                    <Grid container>
-                        <Grid item xs={2} md={3} ><ListItemIcon>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
-                        </ListItemIcon></Grid>
-                        <Grid item xs={6} md={9} >
-                            <ListItem button key="RemySharp">
-                                <ListItemText primary="John Wick"></ListItemText>
-                                <ListItemText align="right" secondary="09:30"></ListItemText>
-                            </ListItem>
-                            <ListItemText className="message">{message}</ListItemText>
-                        </Grid>
-                    </Grid>
-                </List>
+       
 
             </Grid>
 
