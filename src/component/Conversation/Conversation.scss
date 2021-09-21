@@ -18,7 +18,7 @@
     height: 22px;
     background-color: #31AAB7;
     float: right;
-    width: 100px;
+    width: 75px;;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -71,12 +71,17 @@
       box-shadow: none;
       height: 32px;
     }
+    .MuiGrid-container {
+      background-color: #ffffff;
+    }
   }
 
   .search-icon {
     .MuiIconButton-root {
-      padding: 0px 12px 0px 12px
+      padding: 0px 12px 0px 12px;
+      
     }
+     
   }
   
   .user-name {

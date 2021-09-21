@@ -20,6 +20,8 @@ import MenuIcon from '@material-ui/core/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 // import { createTheme } from '@mui/material/styles';
 import blue from '@mui/material/colors/blue';
+import FilterListOutlinedIcon from '@material-ui/icons/FilterListOutlined';
+
 // import CircleIcon from '@mui/icons-material/Circle';
 
 const message = `Hi user! Need your help in setting up all things...`;
@@ -37,16 +39,18 @@ class Conversation extends Component {
                 </Grid>
 
                 <Grid item xs={12} className="search-box">
-                    <Paper component="form" className="search-icon">
-                        <IconButton type="submit"  aria-label="search">
+                    <Grid component="form" container className="search-icon">
+                        <Grid xs={2}> <IconButton type="submit"  aria-label="search">
                             <SearchIcon />
-                        </IconButton>
-                        <InputBase
+                        </IconButton></Grid>
+                       <Grid xs={8}> <InputBase
                             sx={{ ml: 1, flex: 1 }}
                             placeholder="Search..."
-                        />
+                        /></Grid>
+                        <Grid xs={1}><FilterListOutlinedIcon></FilterListOutlinedIcon></Grid>
+                       
                         
-                    </Paper>
+                    </Grid>
 
                 </Grid>
                 <List className="message-block spacing white-bg">
