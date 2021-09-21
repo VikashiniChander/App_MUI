@@ -66,7 +66,7 @@ function User() {
         <Paper className="rectangle">
           <Grid wrap="nowrap" spacing={0} container>
             <Grid xs={1}>
-              <img src="App_MUI\src\assets\address1.png" />
+              <img src="App_MUI/src/assets/pocast.svg" />
             </Grid>
             <Grid className="message-spacing" >
 

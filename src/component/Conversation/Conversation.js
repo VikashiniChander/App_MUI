@@ -22,7 +22,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import blue from '@mui/material/colors/blue';
 // import CircleIcon from '@mui/icons-material/Circle';
 
-const message = `Hi user! Need your help in setting up all things for all the new`;
+const message = `Hi user! Need your help in setting up all things...`;
 
 
 class Conversation extends Component {
@@ -31,8 +31,11 @@ class Conversation extends Component {
             <Grid className="blue-bg block-spacing">
 
                 <Grid className="compose-block"><Box className="compose-button">
-                <IconButton><SearchIcon /></IconButton>
-                </Box></Grid>
+                <Box className="compose-text">Compose</Box>
+
+                </Box>
+                </Grid>
+
                 <Grid item xs={12} className="search-box">
                     <Paper component="form" className="search-icon">
                         <IconButton type="submit"  aria-label="search">
@@ -48,13 +51,15 @@ class Conversation extends Component {
                 </Grid>
                 <List className="message-block spacing white-bg">
                     <Grid container>
+                    <Grid className="dot"></Grid>
+
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
                         <Grid xs={6} md={9}>
                             <ListItem button key="RemySharp">
-                                <ListItemText primary="John Wick"></ListItemText>
-                                <ListItemText align="right" secondary="09:30"></ListItemText>
+                                <ListItemText primary="John Wick"  class="user-name"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
@@ -62,13 +67,15 @@ class Conversation extends Component {
                 </List>
                 <List className="message-block blue-bg">
                     <Grid container>
+                    <Grid className="dot"></Grid>
+
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
-                                <ListItemText primary="John Wick"></ListItemText>
-                                <ListItemText align="right" secondary="09:30"></ListItemText>
+                                <ListItemText primary="John Wick" class="user-name"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
@@ -76,13 +83,15 @@ class Conversation extends Component {
                 </List>
                 <List className="message-block white-bg">
                     <Grid container>
+                    <Grid className="dot"></Grid>
+
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
-                                <ListItemText primary="John Wick"></ListItemText>
-                                <ListItemText align="right" secondary="09:30"></ListItemText>
+                                <ListItemText primary="John Wick" class="user-name"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
@@ -90,13 +99,14 @@ class Conversation extends Component {
                 </List>
                 <List className="message-block spacing blue-bg">
                     <Grid container>
+                        <Grid className="dot"></Grid>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
                         <Grid xs={6} md={9}>
                             <ListItem button key="RemySharp">
-                                <ListItemText primary="John Wick"></ListItemText>
-                                <ListItemText align="right" secondary="09:30"></ListItemText>
+                                <ListItemText primary="John Wick" class="user-name"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
