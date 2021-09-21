@@ -5,9 +5,12 @@
 }
 
 .inbox {
-  height: 40px;
+
   padding: 10px;
   height: 40px;
   padding: 10px;
 
+  .MuiGrid-container {
+    height: 45px;
+  }
 }

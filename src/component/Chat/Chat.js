@@ -22,7 +22,7 @@ import LocalPrintshopOutlinedIcon from '@material-ui/icons/LocalPrintshopOutline
 class Chat extends Component {
     render() {
         return (
-            <Grid item xs={6} className="chat-grid">
+            <Grid item xs={7} className="chat-grid">
                 <List >
                     <Grid xs={8}>
                         <Grid item xs={7}>

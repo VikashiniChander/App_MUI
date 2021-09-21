@@ -21,7 +21,7 @@ function App() {
         <Grid  xs={1} md={6}>
         <AcUnitOutlinedIcon></AcUnitOutlinedIcon>
         </Grid>
-        <Grid  xs={2} md={6}>
+        <Grid  xs={2}>
         <Typography variant="h5" className="header-message">Inbox</Typography>
         </Grid>
       </Grid>

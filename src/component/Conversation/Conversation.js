@@ -23,16 +23,12 @@ import blue from '@mui/material/colors/blue';
 // import CircleIcon from '@mui/icons-material/Circle';
 
 const message = `Hi user! Need your help in setting up all things for all the new`;
-// const theme = createTheme({
-//   status: {
-//     main: 'blue',
-//   },
-// });
+
 
 class Conversation extends Component {
     render() {
         return (
-            <Grid item xs={3} className="blue-bg">
+            <Grid className="blue-bg block-spacing">
 
                 <Grid className="compose-block"><Box className="compose-button">
                 <IconButton><SearchIcon /></IconButton>

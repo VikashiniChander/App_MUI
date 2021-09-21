@@ -1,4 +1,4 @@
-import './User.css';
+import './User.scss';
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -32,17 +32,15 @@ function User() {
 
   return (
       
-    <Grid  item xs={2}>
+    <Grid  item xs={1}>
  
-    <Box sx={{ flexGrow: 2, overflow: 'hidden', px: 1.5,  width: 245, height: 500, bgcolor: 'aliceblue', 
-       p: 1, pt: 3}} spacing={2}>
+    <Box  spacing={2}  className="user-block">
         <Grid item sx={{ml:3}}>
 
         <Avatar>W</Avatar>
         </Grid>
 
-      <Paper sx={{ maxWidth: 600, my: 1, mx: 'auto', p: 2 , mt: 2,  width: 230, height: 200, }}
-       className={classes.paper} >
+      <Paper className="rectangle">
         <Grid  wrap="nowrap" spacing={2}>
           <Grid>
             <Typography mt={2}>{message}</Typography>
