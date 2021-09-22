@@ -12,6 +12,10 @@
   .compose-block {
     height: 50px;
     position: relative;
+
+    // .MuiGrid-item{
+    //   padding-left: 15px;
+    // }
   }
 
   .compose-button {
@@ -38,7 +42,7 @@
 
   .message-block {
     .MuiListItem-gutters {
-      padding: 0px 16px 0px 0px;
+      padding: 0px 5px 0px 0px;
     }
     .MuiListItemText-root {
       margin: 0px;
@@ -77,6 +81,7 @@
   }
 
   .search-icon {
+    margin-left: 13px;
     .MuiIconButton-root {
       padding: 0px 12px 0px 12px;
       
@@ -120,9 +125,14 @@ margin-top: 5px
   display: inline-block;
   right: 0px;
   position: absolute;
+  position: relative;
+    float: right;
+    margin-right: 10px;
  
 }
 
-.dotblock{
-  margin-top: 10px !important;
+.dot-offline {
+  background-color: #7D92A1;
 }
+
+

@@ -38,7 +38,7 @@ class Conversation extends Component {
                 </Box>
                 </Grid>
 
-                <Grid item xs={12} className="search-box">
+                <Grid item xs={10} className="search-box" >
                     <Grid component="form" container className="search-icon">
                         <Grid xs={2}> <IconButton type="submit"  aria-label="search">
                             <SearchIcon />
@@ -64,54 +64,67 @@ class Conversation extends Component {
                         <Grid xs={6} md={9}>
                             <ListItem button key="RemySharp">
                                 <ListItemText primary="John Wick"  class="user-name"></ListItemText>
-                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30 PM"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
                     </Grid>
                 </List>
                 <List className="message-block blue-bg">
+                <Grid className="dot"></Grid>
                     <Grid container>
-                    <Grid className="dot"></Grid>
-
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
                                 <ListItemText primary="John Wick" class="user-name"></ListItemText>
-                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30 PM"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
                     </Grid>
                 </List>
                 <List className="message-block white-bg">
+                <Grid className="dot"></Grid>
                     <Grid container>
-                    <Grid className="dot"></Grid>
-
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
                                 <ListItemText primary="John Wick" class="user-name"></ListItemText>
-                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30 PM"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
                     </Grid>
                 </List>
                 <List className="message-block spacing blue-bg">
+                <Grid className="dot-offline dot"></Grid>
                     <Grid container>
-                        <Grid className="dot"></Grid>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon></Grid>
                         <Grid xs={6} md={9}>
                             <ListItem button key="RemySharp">
                                 <ListItemText primary="John Wick" class="user-name"></ListItemText>
-                                <ListItemText align="right" className="message" secondary="09:30"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30 PM"></ListItemText>
+                            </ListItem>
+                            <ListItemText className="message">{message}</ListItemText>
+                        </Grid>
+                    </Grid>
+                </List>
+                <List className="message-block white-bg">
+                <Grid className="dot-offline dot"></Grid>
+                    <Grid container>
+                        <Grid item xs={2} md={3} ><ListItemIcon>
+                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        </ListItemIcon></Grid>
+                        <Grid item xs={6} md={9} >
+                            <ListItem button key="RemySharp">
+                                <ListItemText primary="John Wick" class="user-name"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30 PM"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
                         </Grid>
