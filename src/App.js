@@ -1,6 +1,7 @@
 import LeftSidePanel from './component/LeftSidePanel/LeftSidePanel'
 import Conversation from './component/Conversation/Conversation';
 import User from './component/User/User';
+import Test from './Test';
 
 import Chat from './component/Chat/Chat';
 import React from 'react';
@@ -30,6 +31,7 @@ function App() {
         <Conversation />
         <Chat />
         <User />
+        {/* <Test /> */}
 
       </Grid>
     </div>
