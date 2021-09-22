@@ -74,7 +74,7 @@ class Chat extends Component {
                 </List>
                 <Divider />
                 <Grid container className="message-box ">
-                    {/* <Grid item xs={8}>
+                    <Grid item xs={8}>
                         <TextField id="outlined-basic-email" label="Type a message..." fullWidth />
                         
                     </Grid>
@@ -85,7 +85,7 @@ class Chat extends Component {
                         <LocalPrintshopOutlinedIcon></LocalPrintshopOutlinedIcon>
                     </Grid>
                     <Grid xs={1} className="icon">
-                    </Grid> */}
+                    </Grid>
                 </Grid>
             </Grid>
         )
