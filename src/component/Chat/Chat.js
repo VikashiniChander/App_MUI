@@ -17,8 +17,11 @@ import SendIcon from '@material-ui/icons/Send';
 import AddSharpIcon from '@material-ui/icons/AddSharp';
 import LocalPrintshopOutlinedIcon from '@material-ui/icons/LocalPrintshopOutlined';
 import CheckIcon from '@material-ui/icons/Check';
+import SendOutlinedIcon from '@material-ui/icons/SendOutlined';
+import AttachFileSharpIcon from '@material-ui/icons/AttachFileSharp';
+import InsertLinkSharpIcon from '@material-ui/icons/InsertLinkSharp';
+// import TextSnippetOutlinedIcon from '@material-ui/icons/TextSnippetOutlined';
 
-// import UploadFileIcon from '@material-ui/icons/UploadFile';
 
 class Chat extends Component {
     render() {
@@ -75,17 +78,21 @@ class Chat extends Component {
                 <Divider />
                 <Grid container className="message-box ">
                     <Grid item xs={8}>
-                        <TextField id="outlined-basic-email" label="Type a message..." fullWidth />
+                        <TextField  label="Type a message..." fullWidth />
                         
                     </Grid>
                     <Grid xs={1} className="icon">
-                        <Grid> <AddSharpIcon></AddSharpIcon></Grid>
+                        <Grid> <SendOutlinedIcon></SendOutlinedIcon></Grid>
                     </Grid>
                     <Grid xs={1} className="icon">
-                        <LocalPrintshopOutlinedIcon></LocalPrintshopOutlinedIcon>
+                        <InsertLinkSharpIcon></InsertLinkSharpIcon>
                     </Grid>
                     <Grid xs={1} className="icon">
+                        <AttachFileSharpIcon></AttachFileSharpIcon>
                     </Grid>
+                    {/* <Grid xs={1} className="icon">
+                        <TextSnippetOutlinedIcon></TextSnippetOutlinedIcon>
+                    </Grid> */}
                 </Grid>
             </Grid>
         )

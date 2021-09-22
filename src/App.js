@@ -18,7 +18,7 @@ function App() {
   return (
 
     <div className="App">
-      <Grid item className="inbox" container>
+      <Grid item className="inbox-block " container>
         <Grid  xs={1} md={6}>
         <AcUnitOutlinedIcon></AcUnitOutlinedIcon>
         </Grid>
@@ -26,7 +26,7 @@ function App() {
         <Typography variant="h5" className="header-message">Inbox</Typography>
         </Grid>
       </Grid>
-      <Grid container component={Paper} className="chatSection">
+      <Grid container  className="chatSection">
         <LeftSidePanel />
         <Conversation />
         <Chat />
