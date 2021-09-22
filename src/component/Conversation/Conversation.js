@@ -54,8 +54,9 @@ class Conversation extends Component {
 
                 </Grid>
                 <List className="message-block spacing white-bg">
-                    <Grid container>
-                    <Grid className="dot"></Grid>
+                <Grid className="dot"></Grid>
+
+                    <Grid container >
 
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />

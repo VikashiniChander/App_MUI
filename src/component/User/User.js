@@ -40,11 +40,10 @@ function User() {
     <Grid item xs={2}>
       
       <Box spacing={2} className="user-block">
-        <Grid>
-        <Grid item sx={{ ml: 3 }} className="userIcon">
+        <Grid item conatiner >
+        <Grid  className="userIcon"> <Avatar></Avatar></Grid>
 
-          <Avatar></Avatar>
-        </Grid>
+     
         
         <Paper className="rectangle">
           <Grid wrap="nowrap" container>
