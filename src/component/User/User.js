@@ -11,7 +11,10 @@ import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import { spacing } from '@material-ui/system';
 import FilterListOutlinedIcon from '@material-ui/icons/FilterListOutlined';
-import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
+import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
+import MailOutlineSharpIcon from '@material-ui/icons/MailOutlineSharp';
 
 const message = `Truncation should be conditionally applicable on this long line of text
  as this is a much longer line than what the container can support. `;
@@ -34,18 +37,19 @@ function User() {
 
   return (
 
-    <Grid item xs={1}>
-
+    <Grid item xs={2}>
+      
       <Box spacing={2} className="user-block">
-        <Grid item sx={{ ml: 3 }}>
+        <Grid>
+        <Grid item sx={{ ml: 3 }} className="userIcon">
 
-          <Avatar>W</Avatar>
+          <Avatar></Avatar>
         </Grid>
-
+        
         <Paper className="rectangle">
           <Grid wrap="nowrap" container>
             <Grid>
-              <FilterListOutlinedIcon></FilterListOutlinedIcon>
+              <MailOutlineSharpIcon></MailOutlineSharpIcon>
             </Grid>
             <Grid>
               <Box className="rectangle-text">linda@jackson.com</Box>
@@ -53,15 +57,15 @@ function User() {
           </Grid>
           <Grid wrap="nowrap" container>
             <Grid>
-              <LocalPhoneIcon></LocalPhoneIcon>
+              <PhoneOutlinedIcon></PhoneOutlinedIcon>
             </Grid>
             <Grid>
               <Box className="rectangle-text">+1-415-404-0924</Box>
             </Grid>
           </Grid>
 
-
         </Paper>
+        </Grid>
 
         <Paper className="rectangle">
           <Grid wrap="nowrap" spacing={0} container>
@@ -71,12 +75,14 @@ function User() {
             <Grid className="message-spacing" >
 
               <Box className="rectangle-text">123 Main St</Box>
-              <Box className="rectangle-text">Contact Owner</Box>
+              <Box className="rectangle-text italic-text">Contact Owner</Box>
               <Box className="rectangle-text">Adam Horsman</Box>
-              <Box className="rectangle-text">Favourite Color</Box>
+              <Box className="rectangle-text italic-text">Favourite Color</Box>
               <Box className="rectangle-text">Green</Box>
 
             </Grid>
+            <SettingsOutlinedIcon className="gearIcon"></SettingsOutlinedIcon>
+            <KeyboardArrowDownIcon className="arrowIcon"></KeyboardArrowDownIcon>
           </Grid>
         </Paper>
         <Paper className="rectangle">
@@ -87,9 +93,9 @@ function User() {
             <Grid className="message-spacing" >
 
               <Box className="rectangle-text">123 Main St</Box>
-              <Box className="rectangle-text">Contact Owner</Box>
+              <Box className="rectangle-text italic-text">Contact Owner</Box>
               <Box className="rectangle-text">Adam Horsman</Box>
-              <Box className="rectangle-text">Favourite Color</Box>
+              <Box className="rectangle-text italic-text">Favourite Color</Box>
               <Box className="rectangle-text">Green</Box>
 
             </Grid>
