@@ -14,6 +14,7 @@ import Divider from '@material-ui/core/Divider';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 import AcUnitOutlinedIcon from '@material-ui/icons/AcUnitOutlined';
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
 function App() {
   return (
@@ -26,13 +27,18 @@ function App() {
         <Grid  xs={2}>
         <Typography variant="h5" className="header-message">Inbox</Typography>
         </Grid>
+        <Grid  xs={2}>
+        </Grid>
+        <Grid  xs={2}>
+        </Grid>
+        <Grid><HelpOutlineIcon></HelpOutlineIcon></Grid>
       </Grid>
       <Grid container  className="chatSection">
         <LeftSidePanel />
         <Conversation />
         <Chat />
         <User />
-        {/* <Test /> */}
+        <Test />
 
       </Grid>
     </div>
