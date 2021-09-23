@@ -10,11 +10,16 @@
     flex-direction: column;
     position: relative;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 .panel-icon {
     margin-top: 10px;
 }
 
 .smile-icon {
-    top: 0px;
+    position: absolute;
+    bottom: 0px;
+    color: #7D92A1;
 }

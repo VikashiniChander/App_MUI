@@ -3,6 +3,7 @@ import Conversation from './component/Conversation/Conversation';
 import User from './component/User/User';
 import Test from './Test';
 import './App.scss';
+import LogoIcon from './component/Common/LogoIcon/LogoIcon';
 
 import Chat from './component/Chat/Chat';
 import React from 'react';
@@ -15,30 +16,36 @@ import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 import AcUnitOutlinedIcon from '@material-ui/icons/AcUnitOutlined';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
+import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
+import BellIcon from './component/Common/BellIcon/BellIcon';
+
 
 function App() {
   return (
 
     <div className="app-container">
       <Grid item className="inbox-block " container>
-        <Grid  xs={1} md={6}>
-        <AcUnitOutlinedIcon></AcUnitOutlinedIcon>
+        <Grid  xs={1}>
+          <LogoIcon className="logoicon"></LogoIcon>
         </Grid>
-        <Grid  xs={2}>
+        <Grid  xs={10}>
         <Typography variant="h5" className="header-message">Inbox</Typography>
         </Grid>
-        <Grid  xs={2}>
+        <Grid  xs={1}>
+        <HelpOutlineIcon></HelpOutlineIcon>
         </Grid>
-        <Grid  xs={2}>
+        
+        <Grid xs={1}><BellIcon /></Grid>
+        <Grid xs={1}>
+        <SettingsOutlinedIcon></SettingsOutlinedIcon>
         </Grid>
-        <Grid><HelpOutlineIcon></HelpOutlineIcon></Grid>
       </Grid>
       <Grid container  className="chatSection">
         <LeftSidePanel />
         <Conversation />
         <Chat />
         <User />
-        <Test />
+        {/* <Test /> */}
 
       </Grid>
     </div>

@@ -5,7 +5,7 @@
 }
 
 .inbox-block {
-  height: 40px;
+  height: 55px;
   display: flex;
   align-items: center;
 
@@ -15,12 +15,17 @@
 }
 
 .app-container {
-  padding: 10px;
+  padding: 5px;
   // .MuiGrid-item {
   //   margin: 10px;
   // }
 }
 
-// .chatSection {
-//   padding: 10px;
-// }
+.logoicon {
+  height: 53px;
+width: 48px;
+left: 20px;
+top: 18px;
+border-radius: 0px;
+
+}
