@@ -1,16 +1,7 @@
 function Test() {
   return (
 
-    <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
-    <rect width="31" height="32" fill="url(#pattern0)"/>
-    <defs>
-    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <use href="#image0" transform="translate(-0.016129) scale(0.0107527 0.0104167)"/>
-    </pattern>
-    <image id="image0" width="96" height="96" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAADG0lEQVR4Ae2bAWRVYRiGY6uYAAW4dQuCwYUEZmDDIhmiABwpgVQK7AY0AAkAEMQAW8oaaQPAaN1ZW2siDLAldsXfgw/Qvd3Td+756ve+PAD/z/Mcx7G5x4KnaZqmaZqmaZqmaVoDbsB9mIOHcBOaMKRpx+EWrEPqwwbchRNQ0bRJ+ASpBLswBVWtBW1Yhi04hJ92zytowzhkt9vQhVQWE3QPPJuFTok716ABWWwOkpMH8DdrmsxUknlwTvInYD9OvuQfSX7QayfuyZd8FvnOl/zZGuQ3JL/3OkOWPw+rkv/7tWqQn4zx3OS/B+/adcg35vKRb8Az8GylDvnG6wzkVx5hc4DzN2DEI9/4mp98f4SDAc9/ASMO+Ql+5CbfH8EC+CP0l28c5CffH2ELkj9Cf/nGJtS+EVisMcBiyX/IvIHkiDCQfGMFQnaypgiLdleZPYLkiDCQfKMNLM8IS2Xl26Ydd36EVIIWsDwjrMNpKLMLsAepBjpgU4Ra5RuzMPRdhskBmIadqAgB8tfy+tR0RAiQvw/NePnxESLkH8EEDHXXq3hKaogQ8OQjv4aNwgIkB3dgYYgRLgW885vgWL0RikpCxtNxfO2ERij+cMY77xPsYA+m4TEswS58h0PYgmVoQwsci41Q9DnjLYwFvMNNPvfWsOgIRY8zTL7NIkh+9RGKHmeMlfiOl3xHhML/NxzJ90SwAK4Iku+IYAFcESTfEaFw/oImOfkC5yFi8REcARqwLfm+CKtwSvIDIkh+bIQn/7B8TfIlfxSewhkImOS/hAQfoiJIPvgjSP4uNB3y4yNIfnwEyY+PIPnxESS/qgiSb3vuuMsTQfJtF+FbTATJV4RY+YpQhfzPcA5sihAvXxHi5StCvHxFiJevCPHyFSFaviIEyleEQPmKUIX8HTgLJacIgfIVIVi+IsxAN3P5VUXowhRUvmvQ9cvPOkIXroItOIJffnwEh/yoCAHy4yP45fsjBMmPj+CX748QJD8+gl9+xRG2oQG2rCP45VcZIUB+WAS//Oo3EyA/MsIV0DRN0zRN0zRN0zRN+1/2C/lYj0pMnYxsAAAAAElFTkSuQmCC"/>
-    </defs>
-    </svg>
-    
+    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/><path d="M14.17,5L19,9.83V19H5V5L14.17,5L14.17,5 M14.17,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9.83 c0-0.53-0.21-1.04-0.59-1.41l-4.83-4.83C15.21,3.21,14.7,3,14.17,3L14.17,3z M7,15h10v2H7V15z M7,11h10v2H7V11z M7,7h7v2H7V7z"/></g></svg>
     
     
     

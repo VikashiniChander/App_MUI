@@ -1,15 +1,7 @@
 function Podcast() {
   return (
 
-    <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
-    <rect width="31" height="32" fill="url(#pattern0)"/>
-    <defs>
-    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-    <use href="#image0" transform="translate(-0.016129) scale(0.0215054 0.0208333)"/>
-    </pattern>
-    <image id="image0" width="48" height="48" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAADDElEQVRYw+2WzyusYRTHP6SkBvlR8qt07yRko25NzUITO8VGsbTVO2o2FnYWirJiQZr9bFwLhRJ/hBolWZJBpAyFhuYu7nmO98e87wzu7XbLeTfz/T5nzvf5cc5zHviy/8HKiDDDBmky5MmTIc0GM0Qo+3zwVhY4I+/znbFA68eD17PCk29w8z2xQv1Hwo9xUzS4+W4Ye1/wClYdAZ7ZI06MMCFChIkRZ49nh88qFaWGr2LL9sdL4lQX9KsmzqXNc4uq0ma/bdvfWUKB3iFmbee0XcoqVm1zj5a04qhtHavFnMfV9ZB2G9+GxRYn3HPPCVtYtNlG2znU/40HhW/gWmf/Fr6ZJDlP5uRI0myTMKu4psFfYEX3/m1zhsn6pmeWYdtGmbNY8a9a4zKr3BSvgRXwypT6zur0fKp7XhwuNHOGbeEPSdBNiBDdJGx7/qqrCHEh3Hyh8OWcyrAlTAt3WmgW5S5vSwvtjhZhLWFOXd4ARDRYrTBJZQYKrnhAJZLC1CoT8brPyNCuJqbJnLhvUsQ1o0zS7goz43XecIWzdO/LNQlSZMiQ0kMs17OwXJIbXgHjGhO8Izih4W9st6eRSAizIzim0/KYKbFOwceCewSnHOmZErZH8LHgTi03j5kaMDdn1oXPHQLneqOaknPip+ICJkVrBN86BG6FrdFULSpgtqhL8JHgXsHrDoGfwvYKPhLc5b9FaRkaFGy6wrTgb45D/i7stHaC3zYoOO0VWHel6aTOzTSRDhXo0OZk1jnpStN1/0LbF9zEi2sNqACu+b/QJMy+f6H90Ko09/maMiMFBUa01te0nxjmR9BlZy7gRsmcrHYHp0BUUvmWRr3cAy47mJPhK03NIXK28N4tipIlx5Cm7JWMz/k1nEdxWFRuwtH43QIQZUJ/L8roo/9zcrlAyyRQgAItc9m/J9fZWnf4XQJh23OhLuhdMapBDt4lcKBjo8VeRkvkyfNA/7sE+nkgT54liloFmz7hg8+gnwc2S3sAV9LnMxIkAH1U8kkLFvgD9iXw7wW+7G/YL72xiFnkJDymAAAAAElFTkSuQmCC"/>
-    </defs>
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><path d="M14,12c0,0.74-0.4,1.38-1,1.72V22h-2v-8.28c-0.6-0.35-1-0.98-1-1.72c0-1.1,0.9-2,2-2S14,10.9,14,12z M12,6 c-3.31,0-6,2.69-6,6c0,1.74,0.75,3.31,1.94,4.4l1.42-1.42C8.53,14.25,8,13.19,8,12c0-2.21,1.79-4,4-4s4,1.79,4,4 c0,1.19-0.53,2.25-1.36,2.98l1.42,1.42C17.25,15.31,18,13.74,18,12C18,8.69,15.31,6,12,6z M12,2C6.48,2,2,6.48,2,12 c0,2.85,1.2,5.41,3.11,7.24l1.42-1.42C4.98,16.36,4,14.29,4,12c0-4.41,3.59-8,8-8s8,3.59,8,8c0,2.29-0.98,4.36-2.53,5.82l1.42,1.42 C20.8,17.41,22,14.85,22,12C22,6.48,17.52,2,12,2z"/></g></svg>
     
     
   );

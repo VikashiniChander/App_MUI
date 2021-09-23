@@ -9,17 +9,26 @@ import SentimentSatisfiedOutlinedIcon from '@material-ui/icons/SentimentSatisfie
 // import InsightsIcon from '@material-ui/icons/Insights';
 import Podcast from '../Common/Podcast/Podcast';
 import PanelIcon from '../Common/PanelIcon/PanelIcon';
-import ImageIcon from '../Common/ImageIcon/ImageIcon';
+import InboxIcon from '../Common/InboxIcon/InboxIcon';
+import ConstructionIcon from '../Common/ConstructionIcon/ConstructionIcon';
+import GroupIcon from '../Common/GroupIcon/GroupIcon';
+import TextIcon from '../Common/TextIcon/TextIcon';
+
 
 function LeftSidePanel() {
 
   return (
-    <Grid item xs={1} className="panel-container" direction="row" >
-     {/* <Podcast />
-     <ImageIcon /> */}
-     <PanelIcon />
-      <SentimentSatisfiedOutlinedIcon  className="panel-icon smile-icon"></SentimentSatisfiedOutlinedIcon>
-      <SentimentSatisfiedOutlinedIcon  className="panel-icon smile-icon"></SentimentSatisfiedOutlinedIcon>
+    <Grid item xs={1} className="panel-container" direction="row" container>
+      <InboxIcon />
+      
+      <Podcast />
+      <TextIcon />
+      <GroupIcon />
+      <PanelIcon />
+
+      <ConstructionIcon />
+      <SentimentSatisfiedOutlinedIcon className="panel-icon smile-icon"></SentimentSatisfiedOutlinedIcon>
+      <SentimentSatisfiedOutlinedIcon className="panel-icon smile-icon"></SentimentSatisfiedOutlinedIcon>
 
     </Grid>
   );

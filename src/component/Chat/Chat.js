@@ -20,6 +20,11 @@ import CheckIcon from '@material-ui/icons/Check';
 import SendOutlinedIcon from '@material-ui/icons/SendOutlined';
 import AttachFileSharpIcon from '@material-ui/icons/AttachFileSharp';
 import InsertLinkSharpIcon from '@material-ui/icons/InsertLinkSharp';
+import TextIcon from '../Common/TextIcon/TextIcon';
+import TokenIcon from '../Common/TokenIcon/TokenIcon';
+
+
+// import TextSnippetOutlinedIcon from '@material-ui/icons/TextSnippetOutlined';
 // import TextSnippetOutlinedIcon from '@material-ui/icons/TextSnippetOutlined';
 
 
@@ -85,14 +90,18 @@ class Chat extends Component {
                         <Grid> <SendOutlinedIcon></SendOutlinedIcon></Grid>
                     </Grid>
                     <Grid xs={1} className="icon">
+                        <Grid> <TokenIcon/></Grid>
+                    </Grid>
+
+                    <Grid xs={1} className="icon">
                         <InsertLinkSharpIcon></InsertLinkSharpIcon>
                     </Grid>
                     <Grid xs={1} className="icon">
                         <AttachFileSharpIcon></AttachFileSharpIcon>
                     </Grid>
-                    {/* <Grid xs={1} className="icon">
-                        <TextSnippetOutlinedIcon></TextSnippetOutlinedIcon>
-                    </Grid> */}
+                    <Grid xs={1} className="icon">
+                        <TextIcon/>
+                    </Grid>
                 </Grid>
             </Grid>
         )

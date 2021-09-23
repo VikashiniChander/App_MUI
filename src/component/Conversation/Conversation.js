@@ -21,7 +21,6 @@ import SearchIcon from '@material-ui/icons/Search';
 // import { createTheme } from '@mui/material/styles';
 import blue from '@mui/material/colors/blue';
 import FilterListOutlinedIcon from '@material-ui/icons/FilterListOutlined';
-
 // import CircleIcon from '@mui/icons-material/Circle';
 
 const message = `Hi user! Need your help in setting up all things...`;
