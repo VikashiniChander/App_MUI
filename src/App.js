@@ -40,12 +40,13 @@ function App() {
         <SettingsOutlinedIcon></SettingsOutlinedIcon>
         </Grid>
       </Grid>
+      <Divider />
       <Grid container  className="chatSection">
         <LeftSidePanel />
         <Conversation />
         <Chat />
         <User />
-        <Test />
+        {/* <Test /> */}
 
       </Grid>
     </div>

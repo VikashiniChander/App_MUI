@@ -5,21 +5,32 @@
 }
 
 .panel-container {
-    width: 50px;
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    svg {
+        margin: 10px;
+        height: 33px;
+        width: 34px;
+        left: 24px;
+        top: 253px;
+        border-radius: 0px;
+        }
 
 }
 .panel-icon {
     margin-top: 10px;
-}
+ }
 
 .smile-icon {
-    position: absolute;
     bottom: 0px;
+    left: 0px !important;
+    position: absolute;
     color: #7D92A1;
+    top: auto !important;
 }
+
+
