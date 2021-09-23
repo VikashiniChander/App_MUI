@@ -2,6 +2,7 @@ import LeftSidePanel from './component/LeftSidePanel/LeftSidePanel'
 import Conversation from './component/Conversation/Conversation';
 import User from './component/User/User';
 import Test from './Test';
+import './App.scss';
 
 import Chat from './component/Chat/Chat';
 import React from 'react';
@@ -17,7 +18,7 @@ import AcUnitOutlinedIcon from '@material-ui/icons/AcUnitOutlined';
 function App() {
   return (
 
-    <div className="App">
+    <div className="app-container">
       <Grid item className="inbox-block " container>
         <Grid  xs={1} md={6}>
         <AcUnitOutlinedIcon></AcUnitOutlinedIcon>

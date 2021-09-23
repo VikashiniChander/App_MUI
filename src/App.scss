@@ -5,12 +5,22 @@
 }
 
 .inbox-block {
-
-  padding: 10px;
   height: 40px;
-  padding: 10px;
+  display: flex;
+  align-items: center;
 
   .MuiGrid-container {
     height: 45px;
   }
 }
+
+.app-container {
+  padding: 10px;
+  // .MuiGrid-item {
+  //   margin: 10px;
+  // }
+}
+
+// .chatSection {
+//   padding: 10px;
+// }
