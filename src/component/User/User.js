@@ -16,6 +16,7 @@ import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 import MailOutlineSharpIcon from '@material-ui/icons/MailOutlineSharp';
 import { Icon } from "@material-ui/core";
+import ComposeIconBlack from '../Common/ComposeIconBlack/ComposeIconBlack';
 
 const message = `Truncation should be conditionally applicable on this long line of text
  as this is a much longer line than what the container can support. `;
@@ -41,6 +42,11 @@ function User() {
     <Grid item xs={2}>
 
       <Box spacing={2} className="user-block">
+        <Box className="composeIcon">
+          <ComposeIconBlack />
+        </Box>
+
+
         {/* <Grid item conatiner >
         <Grid  className="userIcon"> <Avatar></Avatar></Grid>
 
@@ -70,7 +76,7 @@ function User() {
         <Paper className="rectangle">
           <Grid wrap="nowrap" spacing={0} container>
             <Grid xs={1}>
-             
+
             </Grid>
             <Grid className="message-spacing" >
 
