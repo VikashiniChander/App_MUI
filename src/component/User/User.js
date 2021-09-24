@@ -48,7 +48,7 @@ function User() {
 
 
         <Grid item conatiner >
-        <Grid  className="userIcon"> <Avatar></Avatar></Grid>
+        <Grid  className="userIcon"> <Avatar src="https://material-ui.com/static/images/avatar/1.jpg"></Avatar></Grid>
 
      
         
