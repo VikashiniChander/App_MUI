@@ -17,6 +17,8 @@ import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 import MailOutlineSharpIcon from '@material-ui/icons/MailOutlineSharp';
 import { Icon } from "@material-ui/core";
 import ComposeIconBlack from '../Common/ComposeIconBlack/ComposeIconBlack';
+import ArrowBackwardIcon from '../Common/ArrowBackwardIcon/ArrowBackwardIcon';
+import ArrowForwardIcon from '../Common/ArrowForwardIcon/ArrowForwardIcon';
 
 const message = `Truncation should be conditionally applicable on this long line of text
  as this is a much longer line than what the container can support. `;
@@ -57,9 +59,11 @@ function User() {
 
 
         <Grid item conatiner >
+          <Grid><ArrowForwardIcon /></Grid>
         <Grid  className="userIcon"> <Avatar src="https://material-ui.com/static/images/avatar/1.jpg"></Avatar></Grid>
 
-     
+        <Grid><ArrowBackwardIcon /></Grid>
+
         
         <Paper className="rectangle">
           <Box wrap="wrap" container  mt={2} >
@@ -90,7 +94,7 @@ function User() {
             <Grid xs={1}>
 
             </Grid>
-            <Grid className="message-spacing" >
+            <Grid className="message-spacing" xs={8}>
 
               <Box className="rectangle-text">123 Main St</Box>
               <Box className="rectangle-text italic-text">Contact Owner</Box>
