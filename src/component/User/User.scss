@@ -12,7 +12,8 @@ left: 1249px;
 top: 77px;
 border-radius: 0px;
 background-color: #EAF0FF;
-padding: 10px
+padding: 10px;
+padding-top: 40%;
 
 }
 
@@ -73,7 +74,19 @@ color: #324552
 }
 
 .userIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .MuiAvatar-root {
+        display: flex;
     position: absolute;
-    right: 100px;
-    top: 22px;
+    align-items: center;
+    }
+}
+
+.icon-align {
+    display: flex;
+    position: absolute;
+    align-items: center;
 }

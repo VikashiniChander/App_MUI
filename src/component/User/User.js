@@ -47,7 +47,7 @@ function User() {
         </Box>
 
 
-        {/* <Grid item conatiner >
+        <Grid item conatiner >
         <Grid  className="userIcon"> <Avatar></Avatar></Grid>
 
      
@@ -71,7 +71,7 @@ function User() {
           </Grid>
 
         </Paper>
-        </Grid> */}
+        </Grid>
 
         <Paper className="rectangle">
           <Grid wrap="nowrap" spacing={0} container>
