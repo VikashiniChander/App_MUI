@@ -33,6 +33,13 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     marginBottom: 20,
   },
+  typography: {
+    textAlign: 'center',
+  fontSize: 20,
+  fontFamily: 'Work Sans'
+
+
+  }
 }));
 
 function User() {
@@ -55,9 +62,10 @@ function User() {
      
         
         <Paper className="rectangle">
-          <Box wrap="wrap" container  mt={8} >
-          <Typography>Compose</Typography>
-
+          <Box wrap="wrap" container  mt={2} >
+            <Grid xs={12}> 
+          <Typography class={classes.typography}>Linda Jackson</Typography>
+          </Grid>
             <Grid >
               <MailOutlineSharpIcon></MailOutlineSharpIcon>
             </Grid>
