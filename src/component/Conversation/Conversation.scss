@@ -2,7 +2,7 @@
       background-color: aliceblue;
   }
   .block-spacing {
-    width: 270px;
+    width: 20%;
   }
   
   .white-bg {
@@ -69,9 +69,12 @@
   }
 
   .search-box {
+    justify-content: center;
+
     .MuiPaper-elevation1 {
       box-shadow: none;
       height: 32px;
+
     }
     .MuiGrid-container {
       background-color: #ffffff;
@@ -136,4 +139,14 @@ padding-left: 5px;
 .composeIcon {
   float: left;
   color: black;
+}
+
+.filterIcon {
+  display: flex;
+    align-items: flex-end;
+    height: 31px;
+    width: 29px;
+    left: 365px;
+    top: 146px;
+    border-radius: 0px;
 }

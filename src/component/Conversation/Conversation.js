@@ -33,29 +33,25 @@ class Conversation extends Component {
             <Grid className="blue-bg block-spacing">
 
                 <Grid className="compose-block"><Box className="compose-button">
-                 <ComposeIcon />   
-                <Typography className="compose-text">Compose</Typography>
+                    <ComposeIcon />
+                    <Typography className="compose-text">Compose</Typography>
 
                 </Box>
                 </Grid>
-
-                <Grid item xs={10} className="search-box" >
-                    <Grid component="form" container className="search-icon">
-                        <Grid xs={2}> <IconButton type="submit"  aria-label="search">
-                            <SearchIcon />
-                        </IconButton></Grid>
-                       <Grid xs={8}> <InputBase
-                            sx={{ ml: 1, flex: 1 }}
-                            placeholder="Search..."
-                        /></Grid>
-                        <Grid xs={1}><FilterListOutlinedIcon></FilterListOutlinedIcon></Grid>
-                       
-                        
+                <Grid item xs={12} container className="search-box" >
+                    <Grid item xs={10} component="form" container className="search-icon">
+                            <Grid xs={2}> <IconButton type="submit" aria-label="search">
+                                <SearchIcon />
+                            </IconButton></Grid>
+                            <Grid xs={10}> <InputBase
+                                sx={{ ml: 1, flex: 1 }}
+                                placeholder="Search..."
+                            /></Grid>
                     </Grid>
-
+                    <Grid  xs={1} className="filterIcon"><FilterListOutlinedIcon></FilterListOutlinedIcon></Grid>
                 </Grid>
                 <List className="message-block spacing white-bg">
-                <Grid className="dot"></Grid>
+                    <Grid className="dot"></Grid>
 
                     <Grid container >
 
@@ -64,7 +60,7 @@ class Conversation extends Component {
                         </ListItemIcon></Grid>
                         <Grid xs={6} md={9}>
                             <ListItem button key="RemySharp">
-                                <ListItemText primary="John Wick"  class="user-name"></ListItemText>
+                                <ListItemText primary="John Wick" class="user-name"></ListItemText>
                                 <ListItemText align="right" className="message" secondary="09:30 PM"></ListItemText>
                             </ListItem>
                             <ListItemText className="message">{message}</ListItemText>
@@ -72,7 +68,7 @@ class Conversation extends Component {
                     </Grid>
                 </List>
                 <List className="message-block blue-bg">
-                <Grid className="dot"></Grid>
+                    <Grid className="dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -87,7 +83,7 @@ class Conversation extends Component {
                     </Grid>
                 </List>
                 <List className="message-block white-bg">
-                <Grid className="dot"></Grid>
+                    <Grid className="dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -102,7 +98,7 @@ class Conversation extends Component {
                     </Grid>
                 </List>
                 <List className="message-block spacing blue-bg">
-                <Grid className="dot-offline dot"></Grid>
+                    <Grid className="dot-offline dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -117,7 +113,7 @@ class Conversation extends Component {
                     </Grid>
                 </List>
                 <List className="message-block white-bg">
-                <Grid className="dot-offline dot"></Grid>
+                    <Grid className="dot-offline dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -131,7 +127,7 @@ class Conversation extends Component {
                         </Grid>
                     </Grid>
                 </List>
-       
+
 
             </Grid>
 

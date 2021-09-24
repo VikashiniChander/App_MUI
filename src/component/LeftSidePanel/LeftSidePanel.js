@@ -27,7 +27,7 @@ function LeftSidePanel() {
       <PanelIcon />
 
       <ConstructionIcon />
-      <SentimentSatisfiedOutlinedIcon className="panel-icon smile-icon"></SentimentSatisfiedOutlinedIcon>
+      <SentimentSatisfiedOutlinedIcon className="panel-icon"></SentimentSatisfiedOutlinedIcon>
       <SentimentSatisfiedOutlinedIcon className="panel-icon smile-icon"></SentimentSatisfiedOutlinedIcon>
 
     </Grid>
