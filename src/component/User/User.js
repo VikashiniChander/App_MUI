@@ -24,6 +24,7 @@ const message = `Truncation should be conditionally applicable on this long line
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    width: "70vw",
   },
   paper: {
     padding: theme.spacing(1), //grid padding
