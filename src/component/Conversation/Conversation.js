@@ -31,7 +31,7 @@ class Conversation extends Component {
     render() {
         return (
             <Grid className="blue-bg block-spacing">
-
+                <Box>
                 <Grid className="compose-block"><Box className="compose-button">
                     <ComposeIcon />
                     <Typography className="compose-text">Compose</Typography>
@@ -113,6 +113,21 @@ class Conversation extends Component {
                     </Grid>
                 </List>
                 <List className="message-block white-bg">
+                    <Grid className="dot"></Grid>
+                    <Grid container>
+                        <Grid item xs={2} md={3} ><ListItemIcon>
+                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        </ListItemIcon></Grid>
+                        <Grid item xs={6} md={9} >
+                            <ListItem button key="RemySharp">
+                                <ListItemText primary="John Wick" class="user-name"></ListItemText>
+                                <ListItemText align="right" className="message" secondary="09:30 PM"></ListItemText>
+                            </ListItem>
+                            <ListItemText className="message">{message}</ListItemText>
+                        </Grid>
+                    </Grid>
+                </List>
+                <List className="message-block blue-bg">
                     <Grid className="dot-offline dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
@@ -127,7 +142,7 @@ class Conversation extends Component {
                         </Grid>
                     </Grid>
                 </List>
-
+            </Box>
 
             </Grid>
 
