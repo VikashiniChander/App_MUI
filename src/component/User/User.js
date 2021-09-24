@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     width: "70vw",
+    borderRadius: 15,
   },
   paper: {
     padding: theme.spacing(1), //grid padding
@@ -54,14 +55,16 @@ function User() {
      
         
         <Paper className="rectangle">
-          <Grid wrap="nowrap" container>
-            <Grid>
+          <Box wrap="wrap" container  mt={8} >
+          <Typography>Compose</Typography>
+
+            <Grid >
               <MailOutlineSharpIcon></MailOutlineSharpIcon>
             </Grid>
             <Grid>
               <Box className="rectangle-text">linda@jackson.com</Box>
             </Grid>
-          </Grid>
+          </Box>
           <Grid wrap="nowrap" container>
             <Grid>
               <PhoneOutlinedIcon></PhoneOutlinedIcon>

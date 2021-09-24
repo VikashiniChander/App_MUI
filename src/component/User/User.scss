@@ -27,13 +27,18 @@ padding: 10px;
 }
 
 .rectangle {
-    height: 95px;
+    height: 125px;
     // width: 293px;
     left: 1260px;
     top: 357px;
     border-radius: 15px;
     margin-bottom: 15px;
     padding: 15px;
+
+    .MuiBox-root{
+        flex-wrap: wrap;
+        display: flex;
+    }
 
 }
 
