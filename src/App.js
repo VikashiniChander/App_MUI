@@ -24,14 +24,14 @@ function App() {
   return (
 
     <div className="app-container">
-      <Grid item className="inbox-block " container >
+      <Grid item className="inbox-block " xs={12} md={12} container >
         <Grid  xs={1}>
           <LogoIcon className="logoicon"></LogoIcon>
         </Grid>
-        <Grid  xs={10}>
+        <Grid  xs={10} sm={10}>
         <Typography variant="h5" className="header-message">Inbox</Typography>
         </Grid>
-        <Grid xs={1}></Grid>
+        {/* <Grid xs={1}></Grid> */}
         <Grid  xs={1}>
         <HelpOutlineIcon></HelpOutlineIcon>
         </Grid>

@@ -31,7 +31,7 @@ import TokenIcon from '../Common/TokenIcon/TokenIcon';
 class Chat extends Component {
     render() {
         return (
-            <Grid item xs={7} className="chat-grid">
+            <Grid item lg={7} md={6} className="chat-grid">
                 <List className="chat-left">
                     <Grid >
                         <Grid >
@@ -82,7 +82,7 @@ class Chat extends Component {
                 </List>
                 <Divider />
                 <Grid container className="message-box ">
-                    <Grid item xs={8}>
+                    <Grid item xs={8} sm={6}>
                         <TextField  label="Type a message..." fullWidth />
                         
                     </Grid>

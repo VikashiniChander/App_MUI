@@ -50,7 +50,7 @@ function User() {
 
   return (
 
-    <Grid item xs={2}>
+    <Grid item lg={2} md={2}>
 
       <Box spacing={2} className="user-block">
         <Box className="composeIcon">

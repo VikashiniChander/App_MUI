@@ -13,6 +13,10 @@ border-radius: 0px;
 background-color: #EAF0FF;
 padding: 10px;
 
+@media screen and (max-width: 1350px) {
+    width: 126%;
+}
+
 .MuiGrid-item {
     margin-top: 50px;
 }

@@ -30,7 +30,7 @@ const message = `Hi user! Need your help in setting up all things...`;
 class Conversation extends Component {
     render() {
         return (
-            <Grid className="blue-bg block-spacing">
+            <Grid className="blue-bg block-spacing"   >
                 <Box>
                 <Grid className="compose-block"><Box className="compose-button">
                     <ComposeIcon />
@@ -38,7 +38,7 @@ class Conversation extends Component {
 
                 </Box>
                 </Grid>
-                <Grid item xs={12} container className="search-box" >
+                <Grid item xs={12}  container className="search-box" >
                     <Grid item xs={10} component="form" container className="search-icon">
                             <Grid xs={2}> <IconButton type="submit" aria-label="search">
                                 <SearchIcon />
@@ -98,7 +98,7 @@ class Conversation extends Component {
                     </Grid>
                 </List>
                 <List className="message-block spacing blue-bg">
-                    <Grid className="dot-offline dot"></Grid>
+                    <Grid className="dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
@@ -128,7 +128,7 @@ class Conversation extends Component {
                     </Grid>
                 </List>
                 <List className="message-block blue-bg">
-                    <Grid className="dot-offline dot"></Grid>
+                    <Grid className=" dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
