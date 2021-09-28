@@ -19,6 +19,7 @@ function LeftSidePanel() {
 
   return (
     <Grid item xs={1} className="panel-container" direction="row" container>
+      <Grid direction="row" xs={10}>
       <InboxIcon />
       
       <Podcast />
@@ -27,8 +28,9 @@ function LeftSidePanel() {
       <PanelIcon />
 
       <ConstructionIcon />
-      <SentimentSatisfiedOutlinedIcon className="panel-icon"></SentimentSatisfiedOutlinedIcon>
-      <SentimentSatisfiedOutlinedIcon className="panel-icon smile-icon"></SentimentSatisfiedOutlinedIcon>
+      </Grid>
+      <SentimentSatisfiedOutlinedIcon className="panel-icon grey-color"></SentimentSatisfiedOutlinedIcon>
+      <SentimentSatisfiedOutlinedIcon className="panel-icon smile-icon grey-color"></SentimentSatisfiedOutlinedIcon>
 
     </Grid>
   );
