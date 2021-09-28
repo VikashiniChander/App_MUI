@@ -19,6 +19,8 @@ import { Icon } from "@material-ui/core";
 import ComposeIconBlack from '../Common/ComposeIconBlack/ComposeIconBlack';
 import ArrowBackwardIcon from '../Common/ArrowBackwardIcon/ArrowBackwardIcon';
 import ArrowForwardIcon from '../Common/ArrowForwardIcon/ArrowForwardIcon';
+import ArrowUpwardIcon from '../Common/ArrowUpwardIcon/ArrowUpwardIcon';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const message = `Truncation should be conditionally applicable on this long line of text
  as this is a much longer line than what the container can support. `;
@@ -59,8 +61,8 @@ function User() {
 
 
         <Grid item conatiner >
-          {/* <Grid><ArrowForwardIcon /></Grid> */}
         <Grid  className="userIcon"> <Avatar src="https://material-ui.com/static/images/avatar/1.jpg"></Avatar></Grid>
+        <Grid><ArrowForwardIcon /></Grid>
 
         {/* <Grid><ArrowBackwardIcon /></Grid> */}
 

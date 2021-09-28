@@ -1,8 +1,12 @@
 function Test() {
   return (
 
-   <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/><path d="M14.17,5L19,9.83V19H5V5L14.17,5L14.17,5 M14.17,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9.83 c0-0.53-0.21-1.04-0.59-1.41l-4.83-4.83C15.21,3.21,14.7,3,14.17,3L14.17,3z M7,15h10v2H7V15z M7,11h10v2H7V11z M7,7h7v2H7V7z"/></g></svg>
-    
+
+
+     <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 19L10 10L1 1" stroke="#A5AAAE" stroke-width="2" stroke-linejoin="round"/>
+</svg>
+
     
     
     
@@ -11,3 +15,8 @@ function Test() {
 }
 
 export default Test;
+
+{/* <svg width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 10L10 1L19 10" stroke="#324552" stroke-width="2" stroke-linejoin="round"/>
+</svg>
+     */}
