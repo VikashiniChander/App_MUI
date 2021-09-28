@@ -19,6 +19,7 @@ padding: 10px;
 
 .MuiGrid-item {
     margin-top: 50px;
+    position: relative;
 }
 
 .composeIcon {
@@ -35,7 +36,7 @@ padding: 10px;
     // width: 293px;
     left: 1260px;
     top: 357px;
-    border-radius: 15px;
+    border-radius: 15px !important;
     margin-bottom: 15px;
     padding: 15px;
 
@@ -47,6 +48,7 @@ padding: 10px;
 }
 
 .rectangle-text{
+    padding-left: 10px;
     font-family: Work Sans;
 font-size: 14px;
 font-weight: 400;
@@ -69,22 +71,41 @@ border-radius: nullpx;
 }
 
 .gearIcon {
+    margin-right: 16px;
+    svg {
     color: #AAB2B8;
     height: 22px;
 width: 22px;
 left: 1px;
 top: 1px;
 border-radius: 0px;
-
+margin-right: 16px;
+    }
 }
 
 .arrowIcon {
-    height: 18px;
-width: 9px;
-left: 21px;
-top: 7px;
-border-radius: 0px;
-color: #324552
+//     height: 18px;
+// width: 9px;
+color: #324552;
+margin-left:190px;
+position: absolute;
+bottom: 1px;
+}
+
+.arrowBackIcon {
+   
+     border-radius: 0px;
+    color: #324552;
+    margin-left: 45px;
+        height: 18px;
+        width: 9px;
+        position: absolute;
+    bottom: 10px;
+}
+
+.arrowUpIcon {
+    margin-top: -3px;
+
 }
 
 .italic-text {
@@ -105,3 +126,9 @@ color: #324552
     }
 }
 
+// .arrowIcon {
+//     svg {
+//     height: 28px;
+//     width: 20px;
+//     }
+// }

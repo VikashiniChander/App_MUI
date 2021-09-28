@@ -61,10 +61,12 @@ function User() {
 
 
         <Grid item conatiner >
+          <Grid  className="arrowBackIcon"><ArrowBackwardIcon /></Grid>
         <Grid  className="userIcon"> <Avatar src="https://material-ui.com/static/images/avatar/1.jpg"></Avatar></Grid>
-        <Grid><ArrowForwardIcon /></Grid>
+        <Grid class="arrowIcon"><ArrowForwardIcon /></Grid>
 
         {/* <Grid><ArrowBackwardIcon /></Grid> */}
+        </Grid>
 
         
         <Paper className="rectangle">
@@ -89,12 +91,11 @@ function User() {
           </Grid>
 
         </Paper>
-        </Grid>
 
         <Paper className="rectangle">
           <Grid wrap="nowrap" spacing={0} container>
             <Grid xs={1}>
-
+            <img src="App_MUI\src\assets\address1.png" />
             </Grid>
             <Grid className="message-spacing" xs={8}>
 
@@ -105,8 +106,9 @@ function User() {
               <Box className="rectangle-text">Green</Box>
 
             </Grid>
-            <SettingsOutlinedIcon className="gearIcon"></SettingsOutlinedIcon>
-            <KeyboardArrowDownIcon className="arrowIcon"></KeyboardArrowDownIcon>
+            <Grid xs={1} className="gearIcon"> <SettingsOutlinedIcon xs={1} ></SettingsOutlinedIcon></Grid>
+             <Grid  className="arrowUpIcon"><ArrowUpwardIcon  />   </Grid>    
+
           </Grid>
         </Paper>
         <Paper className="rectangle">
@@ -114,7 +116,7 @@ function User() {
             <Grid xs={1}>
               <img src="App_MUI\src\assets\address1.png" />
             </Grid>
-            <Grid className="message-spacing" >
+            <Grid className="message-spacing" xs={8}>
 
               <Box className="rectangle-text">123 Main St</Box>
               <Box className="rectangle-text italic-text">Contact Owner</Box>
@@ -123,6 +125,8 @@ function User() {
               <Box className="rectangle-text">Green</Box>
 
             </Grid>
+            <Grid xs={1} className="gearIcon"> <SettingsOutlinedIcon xs={1} ></SettingsOutlinedIcon></Grid>
+             <Grid  className="arrowUpIcon"><ArrowUpwardIcon  />   </Grid>    
           </Grid>
         </Paper>
 
