@@ -81,11 +81,12 @@ class Chat extends Component {
                     </Grid>
                 </List>
                 <Divider />
-                <Grid container className="message-box ">
+                <Grid container className="message-box" xs={12}>
                     <Grid item xs={8} sm={6}>
                         <TextField  label="Type a message..." fullWidth />
                         
                     </Grid>
+                    <Grid xs={6} container>
                     <Grid xs={1} className="icon">
                         <Grid> <SendOutlinedIcon></SendOutlinedIcon></Grid>
                     </Grid>
@@ -102,7 +103,10 @@ class Chat extends Component {
                     <Grid xs={1} className="icon">
                         <TextIcon/>
                     </Grid>
+                    </Grid>
                 </Grid>
+                <ListItemText className="segment-text" primary="3 segments (23 characters remaining)"></ListItemText>
+
             </Grid>
         )
     }

@@ -23,6 +23,7 @@ import blue from '@mui/material/colors/blue';
 import FilterListOutlinedIcon from '@material-ui/icons/FilterListOutlined';
 import ComposeIcon from '../Common/ComposeIcon/ComposeIcon';
 import Typography from '@material-ui/core/Typography';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 const message = `Hi user! Need your help in setting up all things...`;
 
@@ -56,7 +57,9 @@ class Conversation extends Component {
                     <Grid container >
 
                         <Grid item xs={2} md={3} ><ListItemIcon>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                            <Grid class="avatar"> <Grid className="dot-w">
+                            <WhatsAppIcon className="whatsApp"></WhatsAppIcon></Grid> </Grid>
+
                         </ListItemIcon></Grid>
                         <Grid xs={6} md={9}>
                             <ListItem button key="RemySharp">
@@ -71,7 +74,8 @@ class Conversation extends Component {
                     <Grid className="dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        <Grid class="avatar"></Grid>
+                            {/* <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" /> */}
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
@@ -86,7 +90,7 @@ class Conversation extends Component {
                     <Grid className="dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        <Grid class="avatar"></Grid>
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
@@ -101,7 +105,7 @@ class Conversation extends Component {
                     <Grid className="dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        <Grid class="avatar"></Grid>
                         </ListItemIcon></Grid>
                         <Grid xs={6} md={9}>
                             <ListItem button key="RemySharp">
@@ -116,7 +120,7 @@ class Conversation extends Component {
                     <Grid className="dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        <Grid class="avatar"></Grid>
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
@@ -131,7 +135,7 @@ class Conversation extends Component {
                     <Grid className=" dot"></Grid>
                     <Grid container>
                         <Grid item xs={2} md={3} ><ListItemIcon>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
+                        <Grid class="avatar"></Grid>
                         </ListItemIcon></Grid>
                         <Grid item xs={6} md={9} >
                             <ListItem button key="RemySharp">
